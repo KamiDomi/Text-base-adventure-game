@@ -10,9 +10,12 @@ import random
 
 screen_width = 100
 
-class Character:
-      def __init__ (name, weapon, character_class):
-          name = name
-          weapon = weapon
-          character_class = character_class
+#Player 1#
+class player:
+      def __init__ (self):
+          self.name = ""
+          self.hp = 0
+          self.mp = 0
+          self.status_effects = []
+player1 = player()
 
